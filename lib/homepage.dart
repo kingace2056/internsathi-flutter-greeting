@@ -25,6 +25,11 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Image.network(
+                  'https://internsathi.com/wp-content/uploads/2022/06/InternSathi-logo.png'),
+            ),
             Text(
               DateFormat('hh:mm:ss a').format(timerProvider.currentTime),
               style: TextStyle(
