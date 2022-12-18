@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:internsathi_greeting/providers/greeting_provider.dart';
 import 'package:internsathi_greeting/providers/timer_provider.dart';
 import 'package:intl/intl.dart';

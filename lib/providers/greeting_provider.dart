@@ -14,6 +14,7 @@ class GreetingProvider with ChangeNotifier {
     greeting = getGreeting();
   }
 
+  // function to get greeting string
   String getGreeting() {
     int hour = DateTime.now().hour;
 

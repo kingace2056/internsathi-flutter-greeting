@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    var greetingProvider = Provider.of<GreetingProvider>(context).getGreeting();
     var timeProvider = Provider.of<TimeProvider>(context);
     timeProvider.startTimer();
     return MaterialApp(
